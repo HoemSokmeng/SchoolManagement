@@ -67,7 +67,7 @@ namespace SchoolManagement
                 Sstd.Total = Python + Java + Cshap + BigData + Enlish;
                 Sstd.average = Sstd.Total / 5;
 
-                Sstd.Grade =$"{Sstd.average switch
+                Sstd.Grade = $"{Sstd.average switch
                 {
                     >= 90 => Sstd.Grade = "A",
                     >= 80 => Sstd.Grade = "B",

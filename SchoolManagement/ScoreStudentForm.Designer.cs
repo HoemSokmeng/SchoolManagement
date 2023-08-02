@@ -187,12 +187,13 @@
             // 
             // addNewButton
             // 
+            addNewButton.BackColor = Color.LimeGreen;
             addNewButton.Location = new Point(486, 265);
             addNewButton.Name = "addNewButton";
             addNewButton.Size = new Size(157, 56);
             addNewButton.TabIndex = 16;
             addNewButton.Text = "Add New";
-            addNewButton.UseVisualStyleBackColor = true;
+            addNewButton.UseVisualStyleBackColor = false;
             addNewButton.Click += addNewButton_Click;
             // 
             // scoreStudentDataGridView
